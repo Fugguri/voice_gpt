@@ -14,10 +14,9 @@ async def start(message: types.Message, state: FSMContext):
     cfg: Config = ctx_data.get()['config']
     kb: Keyboards = ctx_data.get()['keyboards']
     db: Database = ctx_data.get()['db']
-
-    user = db.get_user(message.from_user.id)
-    
-    if not user:
+    try:
+        db.get_user(message.from_user.id)
+    except:
         db.add_user(message.from_user)
     
     characters = db.get_all_characters()
