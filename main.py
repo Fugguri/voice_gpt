@@ -36,7 +36,7 @@ async def main():
     print("Starting bot")
     config = load_config("config.json", "texts.yml")
     _redis = from_url('redis://localhost/13')
-    storage = RedisStorage(_redis)
+    storage = RedisStorage2(_redis)
     
     bot = Bot(token=config.tg_bot.token, parse_mode='HTML')
     
