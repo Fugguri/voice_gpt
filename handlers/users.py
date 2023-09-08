@@ -15,16 +15,12 @@ async def start(message: types.Message, state: FSMContext):
     kb: Keyboards = ctx_data.get()['keyboards']
     db: Database = ctx_data.get()['db']
 
-    db.add_user(message.from_user)
     user = db.get_user(message.from_user.id)
-
-    markup = await kb.start_kb(user.id)
-
-    try:
-        await message.answer(cfg.misc.messages.start, reply_markup=markup)
-    except:
-        await message.message.answer(cfg.misc.messages.start, reply_markup=markup)
-
+    
+    if not user:
+        db.add_user(message.from_user)
+    
+    await message.answer(cfg.misc.messages.start)
     await state.finish()
 
 
