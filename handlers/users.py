@@ -54,7 +54,7 @@ async def receive(message: types.Message, state: FSMContext):
         path = f"voice/{message.voice.file_id}.ogg"
         await message.voice.download(path)
         text = speech_to_text(path)
-        
+    
     elif message.content_type ==types.ContentType.TEXT :
         text = message.text
         
