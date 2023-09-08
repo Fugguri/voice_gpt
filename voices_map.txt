@@ -1,0 +1,250 @@
+{'voice_id': 1, 'name': {'RU': 'Геральт из Ривии', 'EN': 'Geralt of Rivia'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 2, 'name': {'RU': 'Андрей Зайцев', 'EN': 'Andrey Zaitsev'}, 'description': {'RU': 'Профессиональный российский актёр озвучки и дубляжа. Официальный голос Орландо Блума, Криса Прэтта, Джейка Джилленхола.', 'EN': 'Russian dubbing actor.'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 5, 'name': {'RU': 'Грейсон', 'EN': 'Greyson'}, 'description': {'RU': 'Английский голос с шотландским акцентом Оркнейских островов', 'EN': 'English voice with Scottish Orkney accent'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 7, 'name': {'RU': 'Пулемётчик', 'EN': 'Heavy'}, 'description': {'RU': 'Голос персонажа из Team Fortress 2', 'EN': 'The voice of a character from Team Fortress 2'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 8, 'name': {'RU': 'Медик', 'EN': 'Medic'}, 'description': {'RU': 'Голос персонажа из Team Fortress 2', 'EN': 'The voice of a character from Team Fortress 2'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 10, 'name': {'RU': 'Деламейн', 'EN': 'Delamain'}, 'description': {'RU': 'Голос Деламейна из Cyberpunk 2077', 'EN': 'Voice of Delamain from Cyberpunk 2077'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 11, 'name': {'RU': 'Диктор Portal 2', 'EN': 'Announcer Portal 2'}, 'description': {'RU': 'Голос персонажа из Portal 2', 'EN': 'Character voice from Portal 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 13, 'name': {'RU': 'Геральт из Ривии', 'EN': 'Geralt of Rivia'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 14, 'name': {'RU': 'Кейв Джонсон', 'EN': 'Cave Johnson'}, 'description': {'RU': 'Голос персонажа из Portal 2', 'EN': 'Character voice from Portal 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 16, 'name': {'RU': 'Мистический Бюрократ', 'EN': 'Mystic Bureaucrat'}, 'description': {'RU': 'Мистический голос странного человека в костюме', 'EN': 'Mystical voice of a strange man in a suit'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 17, 'name': {'RU': 'СЭМ', 'EN': 'SAM'}, 'description': {'RU': 'Голос персонажа из The Outer Worlds', 'EN': 'Character voice from The Outer Worlds'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 18, 'name': {'RU': 'Мария', 'EN': 'Maria'}, 'description': {'RU': 'Голос радиоведущей Марии Загумённовой.', 'EN': 'Voice of radio host Maria Zagumyonnova.'}, 'id_lang': 1, 'sex': 'female'}
+{'voice_id': 19, 'name': {'RU': 'Илья', 'EN': 'Ilya'}, 'description': {'RU': 'Голос профессионального диктора Ильи Роговина', 'EN': 'The voice of professional announcer Ilya Rogovin'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 21, 'name': {'RU': 'Адриан', 'EN': 'Adrian'}, 'description': {'RU': 'Медленный низкий мужской голос для повествования', 'EN': 'Slow male voice in narration style'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 22, 'name': {'RU': 'Гари', 'EN': 'Gary'}, 'description': {'RU': 'Голос носителя английского языка в США/Северной Америке', 'EN': 'US/North American Native English Speaking Voice'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 23, 'name': {'RU': 'Старец Рассказчик', 'EN': 'Elder Storyteller'}, 'description': {'RU': 'Голос взрослого персонажа рассказчика', 'EN': 'The voice of an elder narrator character'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 24, 'name': {'RU': 'Лиззи Уиззи', 'EN': 'Lizzy Wizzy'}, 'description': {'RU': 'Голос персонажа из Cyberpunk 2077', 'EN': 'Voice of character from Cyberpunk 2077'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 25, 'name': {'RU': 'Скиппи', 'EN': 'Skippy'}, 'description': {'RU': 'Голос персонажа из Cyberpunk 2077', 'EN': 'Voice of character from Cyberpunk 2077'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 26, 'name': {'RU': 'Трейсер', 'EN': 'Tracer'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 28, 'name': {'RU': 'Джонни Сильверхенд', 'EN': 'Johnny Silverhand'}, 'description': {'RU': 'Голос Джонни Сильверхенда из Cyberpunk 2077', 'EN': 'Voice of Johnny Silverhand from Cyberpunk 2077'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 29, 'name': {'RU': 'Рик - модуль приключений', 'EN': 'Rick - Adventure Core'}, 'description': {'RU': 'Голос персонажа из Portal 2', 'EN': 'Character voice from Portal 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 30, 'name': {'RU': 'Модуль фактов', 'EN': 'Fact Core'}, 'description': {'RU': 'Голос персонажа из Portal 2', 'EN': 'Character voice from Portal 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 31, 'name': {'RU': 'Якоб', 'EN': 'Jacob'}, 'description': {'RU': 'Голос звучащий как женский и мужской', 'EN': 'Voice sounds like female and male '}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 32, 'name': {'RU': 'Ирис', 'EN': 'Iris'}, 'description': {'RU': 'Приятный женский голос', 'EN': 'Pleasant female voice'}, 'id_lang': 2, 'sex': 'female'}
+{'voice_id': 33, 'name': {'RU': 'Артур', 'EN': 'Arthur'}, 'description': {'RU': 'Низкий мужской голос', 'EN': 'Slow male voice'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 34, 'name': {'RU': 'Алиса', 'EN': 'Alice'}, 'description': {'RU': 'Приятный женский голос', 'EN': 'Pleasant female voice'}, 'id_lang': 2, 'sex': 'female'}
+{'voice_id': 35, 'name': {'RU': 'София', 'EN': 'Sophia'}, 'description': {'RU': 'Женский голос с приятным тембром голоса', 'EN': 'A female voice with a pleasant tone of voice'}, 'id_lang': 2, 'sex': 'female'}
+{'voice_id': 37, 'name': {'RU': 'Кевин', 'EN': 'Kevin'}, 'description': {'RU': 'Deep - Interesting - American Mid-West/Neutral', 'EN': 'I have a deep voice with interesting tonal quality.'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 44, 'name': {'RU': 'Модуль космоса', 'EN': 'Space Core'}, 'description': {'RU': 'Голос персонажа из Portal 2', 'EN': 'Character voice from Portal 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 45, 'name': {'RU': 'Георгий', 'EN': 'George'}, 'description': {'RU': 'Голос начинающего диктора', 'EN': 'The voice of a novice speaker'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 47, 'name': {'RU': 'Дефектная турель', 'EN': 'Defective Turret'}, 'description': {'RU': 'Голос персонажа из Portal 2', 'EN': 'Character voice from Portal 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 50, 'name': {'RU': 'Александр Винокуров', 'EN': 'Alexander Vinokurov'}, 'description': {'RU': 'Голос начинающего диктора', 'EN': 'The voice of a novice speaker'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 51, 'name': {'RU': 'Пётр Головин', 'EN': 'Pyotr Golovin'}, 'description': {'RU': 'Голос начинающего диктора', 'EN': 'The voice of a novice speaker'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 60, 'name': {'RU': 'Екатерина', 'EN': 'Ekaterina'}, 'description': {'RU': 'Голос начинающего диктора', 'EN': 'The voice of a novice speaker'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 61, 'name': {'RU': 'Таисия', 'EN': 'Taisia'}, 'description': {'RU': 'Голос начинающего диктора', 'EN': 'The voice of a novice speaker'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 62, 'name': {'RU': 'Константин', 'EN': 'Konstantin'}, 'description': {'RU': 'Голос начинающего диктора', 'EN': 'The voice of a novice speaker'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 63, 'name': {'RU': 'Андрей', 'EN': 'Andrey'}, 'description': {'RU': 'Мужской голос с приятным тембром', 'EN': 'Male voice with a pleasant timbre'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 64, 'name': {'RU': 'Филипп', 'EN': 'Philip'}, 'description': {'RU': 'Мужской голос с приятным тембром', 'EN': 'Male voice with a pleasant timbre'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 66, 'name': {'RU': 'Павел', 'EN': 'Pavel'}, 'description': {'RU': 'Голос начинающего диктора', 'EN': 'The voice of a novice speaker'}, 'id_lang': 1, 'sex': 'male'}
+{'voice_id': 67, 'name': {'RU': 'Разведчик', 'EN': 'Scout'}, 'description': {'RU': 'Голос персонажа из Team Fortress 2', 'EN': 'The voice of a character from Team Fortress 2'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 69, 'name': {'RU': 'Снайпер', 'EN': 'Sniper'}, 'description': {'RU': 'Голос персонажа из Team Fortress 2', 'EN': 'The voice of a character from Team Fortress 2'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 70, 'name': {'RU': 'Солдат', 'EN': 'Soldier'}, 'description': {'RU': 'Голос персонажа из Team Fortress 2', 'EN': 'The voice of a character from Team Fortress 2'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 71, 'name': {'RU': 'Шпион', 'EN': 'Spy'}, 'description': {'RU': 'Голос персонажа из Team Fortress 2', 'EN': 'The voice of a character from Team Fortress 2'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 72, 'name': {'RU': 'Виктория', 'EN': 'Victoria'}, 'description': {'RU': 'Женский голос с приятным тембром', 'EN': 'Female voice with a pleasant timbre'}, 'id_lang': 2, 'sex': 'female'}
+{'voice_id': 73, 'name': {'RU': 'Агата', 'EN': 'Agata'}, 'description': {'RU': 'Женский голос с приятным тембром', 'EN': 'Female voice with a pleasant timbre'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 75, 'name': {'RU': 'Саманта', 'EN': 'Samantha'}, 'description': {'RU': 'Голос начинающего диктора', 'EN': 'The voice of a novice speaker'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 79, 'name': {'RU': 'Амелия', 'EN': 'Amelia'}, 'description': {'RU': 'Голос начинающего диктора', 'EN': 'The voice of a novice speaker'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 80, 'name': {'RU': 'Скотт', 'EN': 'Scott'}, 'description': {'RU': 'Голос начинающего диктора', 'EN': 'The voice of a novice speaker'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 86, 'name': {'RU': 'Абрам', 'EN': 'Abraham'}, 'description': {'RU': 'Голос начинающего диктора', 'EN': 'The voice of a novice speaker'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 91, 'name': {'RU': 'ГЛэДОС Стиль 2', 'EN': 'GLaDOS Style 2'}, 'description': {'RU': 'Голос персонажа из Portal 2', 'EN': 'Character voice from Portal 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 92, 'name': {'RU': 'ГЛэДОС', 'EN': 'GLaDOS'}, 'description': {'RU': 'Голос персонажа из Portal 2', 'EN': 'Character voice from Portal 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 93, 'name': {'RU': 'Турель', 'EN': 'Turret'}, 'description': {'RU': 'Голос персонажа из Portal 2', 'EN': 'Character voice from Portal 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 94, 'name': {'RU': 'Уитли', 'EN': 'Wheatley'}, 'description': {'RU': 'Голос персонажа из Portal 2', 'EN': 'Character voice from Portal 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 95, 'name': {'RU': 'Виталий Немов', 'EN': 'Vitaly Nemov'}, 'description': {'RU': 'Голос профессионального диктора.', 'EN': 'The voice of a professional speaker.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 96, 'name': {'RU': 'Мистер Риггс', 'EN': 'mr. Riggs'}, 'description': {'RU': 'Голос персонажа из The Riftbreaker', 'EN': 'Character voice from The Riftbreaker'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 97, 'name': {'RU': 'Хьюстон', 'EN': 'Houston'}, 'description': {'RU': 'Голос персонажа из The Riftbreaker', 'EN': 'Character voice from The Riftbreaker'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 100, 'name': {'RU': 'Азир', 'EN': 'Azir'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 101, 'name': {'RU': 'Экко', 'EN': 'Ekko'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 102, 'name': {'RU': 'Джин', 'EN': 'Jhin'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 105, 'name': {'RU': 'Михаил Марчук', 'EN': 'Mikhail Marchuk'}, 'description': {'RU': 'Голос профессионального диктора.', 'EN': 'The voice of a professional speaker.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 106, 'name': {'RU': 'Король Виего', 'EN': 'King Viego'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 107, 'name': {'RU': 'Ёнэ', 'EN': 'Yone'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 109, 'name': {'RU': 'Зед', 'EN': 'Zed'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 110, 'name': {'RU': 'Новиков', 'EN': 'Novikov'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 111, 'name': {'RU': 'Рассказчик Зова Припяти', 'EN': 'Storyteller CoP'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 112, 'name': {'RU': 'Dark Willow', 'EN': 'Dark Willow'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': ''}
+{'voice_id': 113, 'name': {'RU': 'Dawnbreaker', 'EN': 'Dawnbreaker'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 114, 'name': {'RU': 'Grimstroke', 'EN': 'Grimstroke'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 115, 'name': {'RU': 'Hoodwink', 'EN': 'Hoodwink'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 116, 'name': {'RU': 'Mars', 'EN': 'Mars'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 117, 'name': {'RU': 'Medusa', 'EN': 'Medusa'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 118, 'name': {'RU': 'Oracle', 'EN': 'Oracle'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 119, 'name': {'RU': 'Сидорович', 'EN': 'Sidorovich'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 120, 'name': {'RU': 'Puck', 'EN': 'Puck'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 121, 'name': {'RU': 'Snapfire', 'EN': 'Snapfire'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 122, 'name': {'RU': 'Timbersaw', 'EN': 'Timbersaw'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 123, 'name': {'RU': 'Yoru', 'EN': 'Yoru'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 124, 'name': {'RU': 'Viper', 'EN': 'Viper'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 125, 'name': {'RU': 'Void Spirit', 'EN': 'Void Spirit'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 126, 'name': {'RU': 'Атрокс', 'EN': 'Aatrox'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 127, 'name': {'RU': 'Браум', 'EN': 'Braum'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 128, 'name': {'RU': 'Бримстоун', 'EN': 'Brimstone'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 129, 'name': {'RU': 'Камилла', 'EN': 'Camille'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 132, 'name': {'RU': 'Орн', 'EN': 'Ornn'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 133, 'name': {'RU': 'Свейн', 'EN': 'Swain'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 134, 'name': {'RU': 'Sova', 'EN': 'Sova'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 135, 'name': {'RU': 'Эзреаль', 'EN': 'Ezreal'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 136, 'name': {'RU': 'Твич', 'EN': 'Twitch'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 137, 'name': {'RU': 'Skye', 'EN': 'Skye'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 138, 'name': {'RU': 'Вай', 'EN': 'Vi'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 139, 'name': {'RU': 'Виктор', 'EN': 'Victor'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 140, 'name': {'RU': 'Варвик', 'EN': 'Warwick'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 141, 'name': {'RU': 'Зиггс', 'EN': 'Ziggs'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 142, 'name': {'RU': 'Astra', 'EN': 'Astra'}, 'description': {'RU': 'Голос звездной защитницы из Валорант', 'EN': 'Voice of the Star Protector from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 143, 'name': {'RU': 'Breach', 'EN': 'Breach'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 144, 'name': {'RU': 'Brimstone', 'EN': 'Brimstone'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 145, 'name': {'RU': 'Chamber', 'EN': 'Chamber'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 146, 'name': {'RU': 'Cypher', 'EN': 'Cypher'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 147, 'name': {'RU': 'Fade', 'EN': 'Fade'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 148, 'name': {'RU': 'Harbor', 'EN': 'Harbor'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 149, 'name': {'RU': 'KAYO', 'EN': 'KAYO'}, 'description': {'RU': 'Голос робота из Валорант.', 'EN': 'Robot voice from Valorant.'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 150, 'name': {'RU': 'Killjoy', 'EN': 'Killjoy'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 151, 'name': {'RU': 'Neon', 'EN': 'Neon'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 152, 'name': {'RU': 'Omen', 'EN': 'Omen'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 153, 'name': {'RU': 'Phoenix', 'EN': 'Phoenix'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 154, 'name': {'RU': 'Raze', 'EN': 'Raze'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 155, 'name': {'RU': 'Reyna', 'EN': 'Reyna'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 156, 'name': {'RU': 'Sage', 'EN': 'Sage'}, 'description': {'RU': 'Голос персонажа из Валорант', 'EN': 'Character voice from Valorant'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 157, 'name': {'RU': 'Лусио', 'EN': 'Lúcio'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Ovwerwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 158, 'name': {'RU': 'D.Va', 'EN': 'D.Va'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 159, 'name': {'RU': 'Ана', 'EN': 'Ana'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 160, 'name': {'RU': 'Ангел', 'EN': 'Mercy'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 161, 'name': {'RU': 'Батист', 'EN': 'Baptiste'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 162, 'name': {'RU': 'Бригитта', 'EN': 'Brigitte'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 164, 'name': {'RU': 'Дзенъятта', 'EN': 'Zenyatta'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 165, 'name': {'RU': 'Фарра', 'EN': 'Phara'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 166, 'name': {'RU': 'Заря', 'EN': 'Zarya'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Ovwerwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 167, 'name': {'RU': 'Кирико', 'EN': 'Kiriko'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 168, 'name': {'RU': 'Королева Стервятников', 'EN': 'Junker Queen'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 169, 'name': {'RU': 'Доктор Безумус', 'EN': 'Doctor Mad'}, 'description': {'RU': 'Безумный доктор', 'EN': 'Mad Doctor'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 170, 'name': {'RU': 'Кулак Смерти', 'EN': 'Doomfist'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 171, 'name': {'RU': 'Кэссиди', 'EN': 'Cassidy'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 172, 'name': {'RU': 'Уинстон', 'EN': 'Winston'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 173, 'name': {'RU': 'Турбосвин', 'EN': 'Roadhog'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 174, 'name': {'RU': 'Торбьорн', 'EN': 'Torbjorn'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 175, 'name': {'RU': 'Сомбра', 'EN': 'Sombra'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 176, 'name': {'RU': 'Солдат-76', 'EN': 'Soldier-76'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 177, 'name': {'RU': 'Соджорн', 'EN': 'Sojourn '}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 178, 'name': {'RU': 'Симметра', 'EN': 'Symmetra'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 179, 'name': {'RU': 'Сигма', 'EN': 'Sigma'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 180, 'name': {'RU': 'Роковая вдова', 'EN': 'Widowmaker'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 181, 'name': {'RU': 'Райнхардт', 'EN': 'Reinhardt'}, 'description': {'RU': 'Голос персонажа из Overwatch 2 с американским акцентом', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 182, 'name': {'RU': 'Гэндзи', 'EN': 'Genji'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 183, 'name': {'RU': 'Жнец', 'EN': 'Reaper'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 184, 'name': {'RU': 'Ориса', 'EN': 'Orisa'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 185, 'name': {'RU': 'Кэйтлин', 'EN': 'Caitlyn'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League Of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 186, 'name': {'RU': 'Мэй', 'EN': 'Mei'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 187, 'name': {'RU': 'Удир', 'EN': 'Udyr'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 188, 'name': {'RU': 'Troll Warlord', 'EN': 'Troll Warlord'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 189, 'name': {'RU': 'Мойра', 'EN': 'Moira'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 190, 'name': {'RU': 'Эш', 'EN': 'Ashe'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 191, 'name': {'RU': 'Pangolier', 'EN': 'Pangolier'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 192, 'name': {'RU': 'Эхо', 'EN': 'Echo'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 193, 'name': {'RU': 'Хандзо', 'EN': 'Hanzo'}, 'description': {'RU': 'Голос персонажа из Overwatch 2', 'EN': 'Character voice from Overwatch 2'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 194, 'name': {'RU': 'Tinker', 'EN': 'Tinker'}, 'description': {'RU': 'Голос персонажа из Dota 2', 'EN': 'Character voice from Dota 2'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 196, 'name': {'RU': 'Антон Виноградов', 'EN': 'Anton Vinogradov'}, 'description': {'RU': 'Профессиональный российский актёр озвучки и дубляжа. Официальный голос Кроша (смешарики), голос `радио Рекорд`, официальный голос `Пятого канала`', 'EN': 'Professional Russian dubbing actor.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 197, 'name': {'RU': 'Кирилл Скорюпин (зловещий)', 'EN': 'Kirill Skoryupin (evil)'}, 'description': {'RU': 'Голос начинающего диктора озвучки', 'EN': 'Russian dubbing actor.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 198, 'name': {'RU': 'Станислав Концевич', 'EN': 'Stanislav Kontsevich'}, 'description': {'RU': 'Профессиональный российский актёр озвучки и дубляжа. Официальный голос Уилла Смита, Тома Хэнкса, Николаса Кейджа в России.', 'EN': 'Professional Russian dubbing actor.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 199, 'name': {'RU': 'Станислав Концевич (kyber)', 'EN': 'Stanislav Kontsevich (Kyber)'}, 'description': {'RU': 'Профессиональный российский актёр озвучки и дубляжа. Официальный голос Уилла Смита, Тома Хэнкса, Николаса Кейджа в России.', 'EN': 'Professional Russian dubbing actor.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 200, 'name': {'RU': 'Сяо', 'EN': 'Xiao'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 201, 'name': {'RU': 'Кирилл Скорюпин (спокойный)', 'EN': 'Kirill Skoryupin (calm)'}, 'description': {'RU': 'Голос начинающего диктора озвучки', 'EN': 'Russian dubbing actor.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 203, 'name': {'RU': 'Анна-Генриетта', 'EN': 'Anna Henrietta'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 204, 'name': {'RU': 'Аваллак`х', 'EN': 'Avallac`h'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 205, 'name': {'RU': 'Варнава-Базиль Фоулти', 'EN': 'Barnabas-Basil Foulty'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 206, 'name': {'RU': 'Керис ан Крайт', 'EN': 'Cerys an Craite'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 207, 'name': {'RU': 'Цирилла', 'EN': 'Ciri'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 208, 'name': {'RU': 'Лютик', 'EN': 'Dandelion'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 209, 'name': {'RU': 'Акали', 'EN': 'Akali'}, 'description': {'RU': 'Голос персонажа из Лиги Легенд', 'EN': 'Character voice from League of Legends'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 210, 'name': {'RU': 'Хьялмар ан Крайт', 'EN': 'Hjalmar an Craite'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 211, 'name': {'RU': 'Ламберт', 'EN': 'Lambert'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 212, 'name': {'RU': 'Ле Папильон', 'EN': 'Le Papillon'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 213, 'name': {'RU': 'Ле Папильон (стихи)', 'EN': 'Le Papillon (poetry)'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 214, 'name': {'RU': 'Гюнтер о`Дим', 'EN': 'Gaunter O`Dimm'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 215, 'name': {'RU': 'Регис', 'EN': 'Regis'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 216, 'name': {'RU': 'Сильвия-Анна', 'EN': 'Sylvia Anna'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 217, 'name': {'RU': 'Трисс Меригольд', 'EN': 'Triss Merigold'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 218, 'name': {'RU': 'Весемир', 'EN': 'Vesemir'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 219, 'name': {'RU': 'Йеннифэр из Венгерберга', 'EN': 'Yennefer of Vengerberg'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 220, 'name': {'RU': 'Золтан', 'EN': 'Zoltan Chivay'}, 'description': {'RU': 'Голос персонажа из The Witcher 3', 'EN': 'The voice of a character from The Witcher 3'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 221, 'name': {'RU': 'Чжун Ли', 'EN': 'Zhongli'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 222, 'name': {'RU': 'Аратаки Итто', 'EN': 'Arataki Itto'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 223, 'name': {'RU': 'Эола', 'EN': 'Eula'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 224, 'name': {'RU': 'Гань Юй', 'EN': 'Ganyu'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 225, 'name': {'RU': 'Ху Тао', 'EN': 'Hu Tao'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 226, 'name': {'RU': 'Камисато Аяка', 'EN': 'Kamisato Ayaka'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 227, 'name': {'RU': 'Кэ Цин', 'EN': 'Keqing'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 228, 'name': {'RU': 'Альтаир ибн Ла-Ахад', 'EN': 'Altair Ibn-LaAhad'}, 'description': {'RU': 'Персонаж из игры Assassins Creed', 'EN': 'Character from Assassins Creed'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 229, 'name': {'RU': 'Гомер Симпсон', 'EN': 'Homer Simpson'}, 'description': {'RU': 'Голос персонажа из Симпсонов', 'EN': 'The voice of a character from The Simpsons'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 230, 'name': {'RU': 'Лиза Симпсон', 'EN': 'Lisa Simpson'}, 'description': {'RU': 'Голос персонажа из Симпсонов', 'EN': 'The voice of a character from The Simpsons'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 231, 'name': {'RU': 'Чарльз Монтгомери Бёрнс', 'EN': 'Charles Montgomery Burns'}, 'description': {'RU': 'Голос персонажа из Симпсонов', 'EN': 'The voice of a character from The Simpsons'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 232, 'name': {'RU': 'Барт Симпсон', 'EN': 'Bart Simpson'}, 'description': {'RU': 'Голос персонажа из Симпсонов', 'EN': 'The voice of a character from The Simpsons'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 233, 'name': {'RU': 'Подрывник', 'EN': 'Demoman'}, 'description': {'RU': 'Голос персонажа из Team Fortress 2', 'EN': 'The voice of a character from Team Fortress 2'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 234, 'name': {'RU': 'Инженер', 'EN': 'Engineer'}, 'description': {'RU': 'Голос персонажа из Team Fortress 2', 'EN': 'The voice of a character from Team Fortress 2'}, 'id_lang': 2, 'sex': 'male'}
+{'voice_id': 242, 'name': {'RU': 'Гоблины', 'EN': 'Goblin'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 243, 'name': {'RU': 'Гром Адский Крик', 'EN': 'Grommash Hellscream'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 245, 'name': {'RU': 'Гул`дан', 'EN': 'Gul`dan'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 246, 'name': {'RU': 'Иллидан Ярость Бури', 'EN': 'Illidan Stormrage'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 249, 'name': {'RU': 'Кел`Тузад', 'EN': 'Kel`Thuzad'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 252, 'name': {'RU': 'Майев Песнь Теней', 'EN': 'Maiev Shadowsong'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 253, 'name': {'RU': 'Маннорох', 'EN': 'Mannoroth'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 254, 'name': {'RU': 'Медив', 'EN': 'Medivh'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 257, 'name': {'RU': 'Некромант', 'EN': 'Necromancer'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 258, 'name': {'RU': 'Рексар', 'EN': 'Rexxar'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 260, 'name': {'RU': 'Тралл', 'EN': 'Thrall'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 262, 'name': {'RU': 'Вол`джин', 'EN': 'Vol`jin'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 264, 'name': {'RU': 'Ануб`арак', 'EN': 'Anub`arak'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 266, 'name': {'RU': 'Артас Менетил', 'EN': 'Arthas Menethil'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 269, 'name': {'RU': 'Дворфы', 'EN': 'Dwarf'}, 'description': {'RU': 'Голос персонажа из Warcraft', 'EN': 'The voice of a character from Warcraft'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 286, 'name': {'RU': 'Аой Асахина', 'EN': 'Aoi Asahina'}, 'description': {'RU': 'Голос персонажа из Danganronpa', 'EN': 'Character voice from Danganronpa'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 287, 'name': {'RU': 'Стрелок', 'EN': 'Strelok'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 288, 'name': {'RU': 'Суслов', 'EN': 'Docent Suslov'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 289, 'name': {'RU': 'Майор Халецкий', 'EN': 'Major Khaletskiy'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 290, 'name': {'RU': 'Холод', 'EN': 'Cold'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 291, 'name': {'RU': 'Бандит Йога', 'EN': 'Bandit Yoga'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 292, 'name': {'RU': 'Профессор Каланча', 'EN': 'Professor E.F. Kalancha'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 293, 'name': {'RU': 'Генерал Крылов', 'EN': 'General Krylov'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 294, 'name': {'RU': 'Лебедев', 'EN': 'Lebedev'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 295, 'name': {'RU': 'Лесник', 'EN': 'Forester'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 296, 'name': {'RU': 'Бандит', 'EN': 'Bandit'}, 'description': {'RU': 'Голос персонажа из S.T.A.L.K.E.R.', 'EN': 'Character voice from S.T.A.L.K.E.R.'}, 'id_lang': 1, 'sex': None}
+{'voice_id': 298, 'name': {'RU': 'Каэдэхара Кадзуха', 'EN': 'Kaedehara Kazuha'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 299, 'name': {'RU': 'Лайла', 'EN': 'Layla'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 300, 'name': {'RU': 'Сангономия Кокоми', 'EN': 'Sangonomiya Kokomi'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 301, 'name': {'RU': 'Шэнь Хэ', 'EN': 'Shenhe'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 302, 'name': {'RU': 'Странник', 'EN': 'Wanderer'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 303, 'name': {'RU': 'Беннет', 'EN': 'Bennett'}, 'description': {'RU': 'Голос персонажа из Genshin Impact', 'EN': 'The voice of a character from Genshin Impact'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 304, 'name': {'RU': 'Марлон', 'EN': 'Marlon'}, 'description': {'RU': 'Голос персонажа из Ходячих Мертвецов', 'EN': 'Character voice from The Walking Dead'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 305, 'name': {'RU': 'Теннесси', 'EN': 'Tennessee'}, 'description': {'RU': 'Голос персонажа из Ходячих Мертвецов', 'EN': 'Character voice from The Walking Dead'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 306, 'name': {'RU': 'Вайолет', 'EN': 'Violet Episode 2'}, 'description': {'RU': 'Голос персонажа из Ходячих Мертвецов', 'EN': 'Character voice from The Walking Dead'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 307, 'name': {'RU': 'Элвин-младший', 'EN': 'Alvin Jr.'}, 'description': {'RU': 'Голос персонажа из Ходячих Мертвецов', 'EN': 'Character voice from The Walking Dead'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 308, 'name': {'RU': 'Клементина', 'EN': 'Clementine'}, 'description': {'RU': 'Голос персонажа из Ходячих Мертвецов', 'EN': 'Character voice from The Walking Dead'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 309, 'name': {'RU': 'Лилли', 'EN': 'Lilly'}, 'description': {'RU': 'Голос персонажа из Ходячих Мертвецов', 'EN': 'Character voice from The Walking Dead'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 310, 'name': {'RU': 'Луис', 'EN': 'Louis'}, 'description': {'RU': 'Голос персонажа из Ходячих Мертвецов', 'EN': 'Character voice from The Walking Dead'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 311, 'name': {'RU': 'Барни Калхун', 'EN': 'Barney Calhoun'}, 'description': {'RU': 'Голос персонажа из Half Life', 'EN': 'Character voice from Half Life'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 312, 'name': {'RU': 'Элай Вэнс (HL: Alyx)', 'EN': 'Eli Vance (HL: Alyx)'}, 'description': {'RU': 'Голос персонажа из Half Life', 'EN': 'Character voice from Half Life'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 313, 'name': {'RU': 'Отец Григорий', 'EN': 'Father Grigori'}, 'description': {'RU': 'Голос персонажа из Half Life', 'EN': 'Character voice from Half Life'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 314, 'name': {'RU': 'Вортигонт (HL: Alyx)', 'EN': 'Vortigaunt (HL: Alyx)'}, 'description': {'RU': 'Голос персонажа из Half Life', 'EN': 'Character voice from Half Life'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 315, 'name': {'RU': 'Аликс (HL: Alyx)', 'EN': 'Alyx (HL: Alyx)'}, 'description': {'RU': 'Голос персонажа из Half Life', 'EN': 'Character voice from Half Life'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 316, 'name': {'RU': 'Броня', 'EN': 'Bronya'}, 'description': {'RU': 'Голос персонажа из Honkai: Star Rail', 'EN': 'Character voice from Honkai: Star Rail'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 317, 'name': {'RU': 'Клара', 'EN': 'Clara'}, 'description': {'RU': 'Голос персонажа из Honkai: Star Rail', 'EN': 'Character voice from Honkai: Star Rail'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 318, 'name': {'RU': 'Дань Хэн', 'EN': 'Dan Heng'}, 'description': {'RU': 'Голос персонажа из Honkai: Star Rail', 'EN': 'Character voice from Honkai: Star Rail'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 319, 'name': {'RU': 'Химеко', 'EN': 'Himeko'}, 'description': {'RU': 'Голос персонажа из Honkai: Star Rail', 'EN': 'Character voice from Honkai: Star Rail'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 320, 'name': {'RU': 'Март', 'EN': 'March 7th'}, 'description': {'RU': 'Голос персонажа из Honkai: Star Rail', 'EN': 'Character voice from Honkai: Star Rail'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 321, 'name': {'RU': 'Наташа', 'EN': 'Natasha'}, 'description': {'RU': 'Голос персонажа из Honkai: Star Rail', 'EN': 'Character voice from Honkai: Star Rail'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 322, 'name': {'RU': 'Сэмпо', 'EN': 'Sampo'}, 'description': {'RU': 'Голос персонажа из Honkai: Star Rail', 'EN': 'Character voice from Honkai: Star Rail'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 327, 'name': {'RU': 'Селестия Люденберг', 'EN': 'Celestia Ludenberg'}, 'description': {'RU': 'Голос персонажа из Danganronpa', 'EN': 'Character voice from Danganronpa'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 328, 'name': {'RU': 'Хаджимэ Хината', 'EN': 'Hajime Hinata'}, 'description': {'RU': 'Голос персонажа из Danganronpa', 'EN': 'Character voice from Danganronpa'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 329, 'name': {'RU': 'Хиёко Сайонджи', 'EN': 'Hiyoko Saionji'}, 'description': {'RU': 'Голос персонажа из Danganronpa', 'EN': 'Character voice from Danganronpa'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 330, 'name': {'RU': 'Ибуки Миода', 'EN': 'Ibuki Mioda'}, 'description': {'RU': 'Голос персонажа из Danganronpa', 'EN': 'Character voice from Danganronpa'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 331, 'name': {'RU': 'Джунко Эношима', 'EN': 'Junko Enoshima'}, 'description': {'RU': 'Голос персонажа из Danganronpa', 'EN': 'Character voice from Danganronpa'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 332, 'name': {'RU': 'Кёко Киригири', 'EN': 'Kyoko Kirigiri'}, 'description': {'RU': 'Голос персонажа из Danganronpa', 'EN': 'Character voice from Danganronpa'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 333, 'name': {'RU': 'Макото Наэги', 'EN': 'Makoto Naegi'}, 'description': {'RU': 'Голос персонажа из Danganronpa', 'EN': 'Character voice from Danganronpa'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 334, 'name': {'RU': 'Монокума', 'EN': 'Monokuma'}, 'description': {'RU': 'Голос персонажа из Danganronpa', 'EN': 'Character voice from Danganronpa'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 335, 'name': {'RU': 'Пеко Пекояма', 'EN': 'Peko Pekoyama'}, 'description': {'RU': 'Голос персонажа из Danganronpa', 'EN': 'Character voice from Danganronpa'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 336, 'name': {'RU': 'Цирковая Бейби', 'EN': 'Circus Baby'}, 'description': {'RU': 'Голос персонажа из Five Nights at Freddy', 'EN': 'Character voice from Five Nights at Freddy'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 337, 'name': {'RU': 'Фокси', 'EN': 'Foxy'}, 'description': {'RU': 'Голос персонажа из Five Nights at Freddy', 'EN': 'Character voice from Five Nights at Freddy'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 338, 'name': {'RU': 'Глэмрок Фредди', 'EN': 'Glamrock Freddy'}, 'description': {'RU': 'Голос персонажа из Five Nights at Freddy', 'EN': 'Character voice from Five Nights at Freddy'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 339, 'name': {'RU': 'Волшебная Радуга Чики', 'EN': 'Chica`s Magic Rainbow'}, 'description': {'RU': 'Голос персонажа из Five Nights at Freddy', 'EN': 'Character voice from Five Nights at Freddy'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 340, 'name': {'RU': 'Игрушечная Чика', 'EN': 'Toy Chicа'}, 'description': {'RU': 'Голос персонажа из Five Nights at Freddy', 'EN': 'Character voice from Five Nights at Freddy'}, 'id_lang': 2, 'sex': None}
+{'voice_id': 816, 'name': {'RU': 'Медисон', 'EN': 'Madison'}, 'description': {'RU': 'Мягкий женский голос с акцентом Стаффордшира', 'EN': 'Soft female voice with a Staffordshire accent'}, 'id_lang': 2, 'sex': 'female'}
+{'voice_id': 3216, 'name': {'RU': 'Стивен', 'EN': 'Stephen'}, 'description': {'RU': 'Классический английский акцент', 'EN': 'Classic English accent'}, 'id_lang': 2, 'sex': 'male'}
