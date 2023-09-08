@@ -12,7 +12,7 @@ from handlers.admin import register_admin_handlers
 from middlewares.environment import EnvironmentMiddleware
 
 from aiogram import Bot, Dispatcher, executor,utils
-from aiogram.contrib.fsm_storage.redis import RedisStorage
+from aiogram.contrib.fsm_storage.redis import RedisStorage2
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from redis.asyncio.utils import from_url
 logger = logging.getLogger(__name__)
