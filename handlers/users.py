@@ -63,7 +63,9 @@ async def receive(message: types.Message, state: FSMContext):
     voice = types.InputFile(path)
     await message.answer_voice(voice)
     os.remove(path)
+
     # await message.answer(responce)
+
     await wait.delete()
 
 async def mailing(message: types.Message):
