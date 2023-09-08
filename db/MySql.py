@@ -1,6 +1,6 @@
 from datetime import date
 import pymysql
-from config import Config
+from config.config import Config
 from models import User,Character
 
 
@@ -34,6 +34,7 @@ class Database:
                         name TEXT,
                         description TEXT,
                         role_settings TEXT,
+                        voice_id INTEGER,
                         use_count BIGINT DEFAULT 0
                         );"""
             cursor.execute(create)
@@ -111,7 +112,17 @@ class Database:
             user = Character(*res)
         return user
             
-    
+    def update_character_count(self,id):
+        self.connection.ping()
+        with self.connection.cursor() as cursor:
+
+            cursor.execute(
+                """UPDATE Character SET use_count = use_count + 1WHERE id=%s""",(id,))
+            res = cursor.fetchone()
+            self.connection.commit()
+            self.connection.close()        
+            user = Character(*res)
+        return user
             
     def get_user(self,telegram_id):
         self.connection.ping()
@@ -125,3 +136,12 @@ class Database:
             self.connection.close()        
             user = User(*res)
         return user
+
+
+if __name__ == "__main__":
+    db = Database()
+    from config.config import load_config
+    
+    config = load_config("config.json", "texts.yml")
+    ch = Character(0,"Maria","test","test character",164,0)
+    db.add_character(ch)

@@ -3,7 +3,7 @@ from aiogram import Dispatcher
 from aiogram.dispatcher.handler import ctx_data
 from aiogram.dispatcher import FSMContext
 
-from config import Config
+from config.config import Config
 from db import Database
 from keyboards.keyboards import Keyboards
 

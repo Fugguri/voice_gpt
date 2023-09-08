@@ -4,7 +4,7 @@ from aiogram.dispatcher.handler import ctx_data
 from aiogram.dispatcher import FSMContext
 
 from utils import speech_to_text,create_responce,text_to_speech
-from config import Config
+from config.config import Config
 from db import Database
 from keyboards.keyboards import Keyboards
 

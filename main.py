@@ -2,9 +2,9 @@ import asyncio
 import logging
 import openai
 import sys
-from db.MySql_connect import Database
+from db.MySql import Database
 # from db.sqlite_connection import Database
-from config import load_config
+from config.config import load_config
 from keyboards.keyboards import Keyboards
 from handlers.users import register_user_handlers
 from handlers.admin import register_admin_handlers
@@ -33,7 +33,7 @@ async def main():
     )
     logger.info("Starting bot")
     print("Starting bot")
-    config = load_config("config.json", "texts.yml")
+    config = load_config("config/config.json", "config/texts.yml")
     storage = MemoryStorage()
     
     bot = Bot(token=config.tg_bot.token, parse_mode='HTML')

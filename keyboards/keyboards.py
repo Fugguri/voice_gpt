@@ -1,4 +1,4 @@
-from config import Config
+from config.config import Config
 from aiogram.utils.callback_data import CallbackData
 from aiogram.types import InlineKeyboardButton,InlineKeyboardMarkup,\
     ReplyKeyboardMarkup,ReplyKeyboardRemove,KeyboardButton

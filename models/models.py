@@ -15,5 +15,6 @@ class Character:
     name:str
     description:str
     role_settings:str
+    voice_id: str
     use_count:int
     

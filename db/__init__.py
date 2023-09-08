@@ -1,3 +1,3 @@
-from .MySql_connect import Database
+from .MySql import Database
 
 __all__ = ["Database"]
