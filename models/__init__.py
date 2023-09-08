@@ -1,2 +1,2 @@
-from .client import  User
+from .client import  User,Character
 

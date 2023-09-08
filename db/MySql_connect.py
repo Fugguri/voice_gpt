@@ -1,7 +1,7 @@
 from datetime import date
 import pymysql
 from config import Config
-from models import User
+from models import User,Character
 
 
 class Database:
@@ -27,7 +27,18 @@ class Database:
                         );"""
             cursor.execute(create)
             self.connection.commit()
-
+            
+        with self.connection.cursor() as cursor:
+            create = """CREATE TABLE IF NOT EXISTS Characters
+                        (id INT PRIMARY KEY AUTO_INCREMENT,
+                        name TEXT,
+                        description TEXT,
+                        role_settings TEXT,
+                        use_count BIGINT DEFAULT 0
+                        );"""
+            cursor.execute(create)
+            self.connection.commit()
+            
         # with self.connection.cursor() as cursor:
         #     create =""" CREATE TABLE IF NOT EXISTS clients
         #             (id INT PRIMARY KEY AUTO_INCREMENT,
@@ -45,13 +56,62 @@ class Database:
         #     self.connection.commit()
 
 
-    def add_user(self, user):
+    def add_user(self, user:User):
         self.connection.ping()
         with self.connection.cursor() as cursor:
             cursor.execute("INSERT IGNORE INTO users (full_name, telegram_id, username) VALUES (%s, %s, %s) ",(user.full_name, user.id, user.username))
             self.connection.commit()
             self.connection.close()
             
+    def add_character(self, character:Character):
+        self.connection.ping()
+        with self.connection.cursor() as cursor:
+            cursor.execute("INSERT IGNORE INTO Characters (name, desctiprion, role_settings, use_count) VALUES (%s,%s, %s, %s) ",
+                           (character.name,character.description,character.role_settings,character.use_count))
+            self.connection.commit()
+            self.connection.close()
+            
+            
+    def get_all_characters(self):
+        result = []
+        self.connection.ping()
+        with self.connection.cursor() as cursor:
+            cursor.execute(
+                """SELECT * FROM Characters""")
+            res = cursor.fetchall()
+            self.connection.commit()
+            self.connection.close()        
+            for character in res:
+                result.append(Character(*character))
+        return result
+    
+    def get_all_users(self):
+        result = []
+        self.connection.ping()
+        with self.connection.cursor() as cursor:
+            cursor.execute(
+                """SELECT * FROM users""")
+            res = cursor.fetchone()
+            self.connection.commit()
+            self.connection.close() 
+            for user in res:
+                result.append(User(*user))
+        return result
+    
+    def get_character(self,id):
+        self.connection.ping()
+        with self.connection.cursor() as cursor:
+            cursor.execute(
+                """SELECT *
+                FROM character
+                WHERE id=%s""",(id,))
+            res = cursor.fetchone()
+            self.connection.commit()
+            self.connection.close()        
+            user = Character(*res)
+        return user
+            
+    
             
     def get_user(self,telegram_id):
         self.connection.ping()

@@ -12,7 +12,6 @@ def text_to_speech(text,voice_id):
     response = httpx.post(url, headers=headers, json=body)
     data = response.json()
     path = wget.download(data["audio_url"],"voice")
-    
     return path
     
 

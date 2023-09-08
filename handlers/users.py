@@ -20,6 +20,8 @@ async def start(message: types.Message, state: FSMContext):
     if not user:
         db.add_user(message.from_user)
     
+    characters = db.get_all_characters()
+    markup = await kb.start_kb(characters)
     await message.answer(cfg.misc.messages.start)
     await state.finish()
 
@@ -40,16 +42,11 @@ async def receive(message: types.Message, state: FSMContext):
     elif message.content_type ==types.ContentType.TEXT :
         text = message.text
     responce = await create_responce(message,openai,text)
-    
     path = text_to_speech(responce,voice_id)
-    print()
-    print(path)
     voice = types.InputFile(path)
     await message.answer_voice(voice)
     os.remove(path)
     # await message.answer(responce)
-    
-    
     await wait.delete()
 
 async def mailing(message: types.Message):

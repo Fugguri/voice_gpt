@@ -8,3 +8,12 @@ class User:
     full_name:str
     has_access:bool
     
+
+@dataclass
+class Character:
+    id:int
+    name:str
+    description:str
+    role_settings:str
+    use_count:int
+    
