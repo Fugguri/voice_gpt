@@ -1,6 +1,6 @@
 from datetime import date
 import pymysql
-from config.config import Config
+from config import Config
 from models import User,Character
 
 
@@ -67,7 +67,7 @@ class Database:
     def add_character(self, character:Character):
         self.connection.ping()
         with self.connection.cursor() as cursor:
-            cursor.execute("INSERT IGNORE INTO Characters (name, desctiprion, role_settings, use_count) VALUES (%s,%s, %s, %s) ",
+            cursor.execute("INSERT IGNORE INTO Characters (name, description, role_settings, use_count) VALUES (%s,%s, %s, %s) ",
                            (character.name,character.description,character.role_settings,character.use_count))
             self.connection.commit()
             self.connection.close()
@@ -102,10 +102,7 @@ class Database:
     def get_character(self,id):
         self.connection.ping()
         with self.connection.cursor() as cursor:
-            cursor.execute(
-                """SELECT *
-                FROM character
-                WHERE id=%s""",(id,))
+            cursor.execute("""SELECT * FROM Characters WHERE id=%s""",(id,))
             res = cursor.fetchone()
             self.connection.commit()
             self.connection.close()        
@@ -115,11 +112,11 @@ class Database:
     def update_character_count(self,id):
         self.connection.ping()
         with self.connection.cursor() as cursor:
-
-            cursor.execute(
-                """UPDATE Character SET use_count = use_count + 1WHERE id=%s""",(id,))
-            res = cursor.fetchone()
+            cursor.execute("""UPDATE Characters SET use_count = use_count + 1 WHERE id=%s""",(id,))
+            cursor.fetchone()
             self.connection.commit()
+            cursor.execute("""SELECT * FROM Characters WHERE id=%s""",(id,))
+            res = cursor.fetchone()
             self.connection.close()        
             user = Character(*res)
         return user

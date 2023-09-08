@@ -25,6 +25,7 @@ class TgBot:
     user: str
     password: str
     voice_id : int
+    role_settings: str
     
 @dataclass
 class Miscellaneous:
@@ -60,6 +61,7 @@ def load_config(path: str = None, texts_path=None):
             user=config["user"],
             password=config["password"],
             voice_id=config["voice_id"],
+            role_settings=config["role_settings"],
         ),
         misc=Miscellaneous(
             buttons_texts = ButtonsTexts(
