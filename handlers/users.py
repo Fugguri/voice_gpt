@@ -28,6 +28,7 @@ async def start(message: types.Message, state: FSMContext):
 
 
 async def receive(message: types.Message, state: FSMContext):
+    
     cfg: Config = ctx_data.get()['config']
     kb: Keyboards = ctx_data.get()['keyboards']
     db: Database = ctx_data.get()['db']

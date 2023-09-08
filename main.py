@@ -12,9 +12,8 @@ from handlers.admin import register_admin_handlers
 from middlewares.environment import EnvironmentMiddleware
 
 from aiogram import Bot, Dispatcher, executor,utils
-from aiogram.contrib.fsm_storage.redis import RedisStorage2,RedisStorage
+from aiogram.contrib.fsm_storage.memory  import MemoryStorage
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
-from redis.asyncio.utils import from_url
 logger = logging.getLogger(__name__)
 
 async def register_all_middlewares(dp, config, keyboards,db,bot,openai):
@@ -35,8 +34,7 @@ async def main():
     logger.info("Starting bot")
     print("Starting bot")
     config = load_config("config.json", "texts.yml")
-    _redis = from_url('redis://localhost/13')
-    storage = RedisStorage(_redis)
+    storage = MemoryStorage()
     
     bot = Bot(token=config.tg_bot.token, parse_mode='HTML')
     
