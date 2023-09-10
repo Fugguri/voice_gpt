@@ -9,6 +9,7 @@ from db import Database
 from keyboards.keyboards import Keyboards
 
 import os
+from admin import admin
 
 
 async def start(message: types.Message, state: FSMContext):
@@ -83,9 +84,14 @@ async def mailing(message: types.Message):
         await bot.send_message(chat_id=user[2], text=result)
 
 
-async def client_add_profile(callback: types.CallbackQuery, state: FSMContext, callback_data: dict):
+async def back(callback: types.CallbackQuery, state: FSMContext, callback_data: dict):
     db: Database = ctx_data.get()['db']
     kb: Keyboards = ctx_data.get()['keyboards']
+
+    if callback_data['role'] == "admin":
+        await admin(callback.message)
+    if callback_data['role'] == "user":
+        await start(callback.message)
 
 
 def register_user_handlers(dp: Dispatcher, kb: Keyboards):

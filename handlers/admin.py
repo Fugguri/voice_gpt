@@ -30,7 +30,7 @@ async def commands(callback: types.CallbackQuery, state: FSMContext, callback_da
         text = "Введите текст рассылки"
         await state.set_state("wait_mail_text")
     if command == 'statistic':
-        markup = await kb.back_kb()
+        markup = await kb.back_kb("admin")
         text = await create_text.create_statistic(db)
 
     await callback.message.answer(text, reply_markup=markup)

@@ -11,7 +11,7 @@ class Keyboards:
         self.admin_cd = CallbackData("mailing", "command")
         self.mailing_cd = CallbackData("admin", "command")
 
-        self.back_cd = CallbackData("back")
+        self.back_cd = CallbackData("back", "role")
 
     async def start_kb(self, characters: tuple):
 
@@ -29,6 +29,8 @@ class Keyboards:
                callback_data=self.admin_cd.new(command="mail")))
         kb.add(InlineKeyboardButton(text="Статистика",
                callback_data=self.admin_cd.new(command="statistic")))
+        kb.add(InlineKeyboardButton(text="Назад",
+               callback_data=self.back_cd.new(role='user')))
 
         return kb
 
@@ -50,10 +52,10 @@ class Keyboards:
                    callback_data=self.admin_cd.new(command="mail")))
         return kb
 
-    async def back_kb(self):
+    async def back_kb(self, role):
         kb = InlineKeyboardMarkup()
 
         kb.add(InlineKeyboardButton(text="Назад",
-               callback_data=self.back_cd.new()))
+               callback_data=self.back_cd.new(role=role)))
 
         return kb
