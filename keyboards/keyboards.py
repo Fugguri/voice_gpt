@@ -38,7 +38,7 @@ class Keyboards:
         kb = InlineKeyboardMarkup()
         if state == "wait_mail_text":
             kb.add(InlineKeyboardButton(text="Назад",
-                                        callback_data=self.back_cd.new()))
+                                        callback_data=self.back_cd.new('admin')))
         if state == 'wait_mail_photo':
             kb.add(InlineKeyboardButton(text="Без фото",
                    callback_data=self.mailing_cd.new("no_photo")))

@@ -91,16 +91,17 @@ async def back(callback: types.CallbackQuery, state: FSMContext, callback_data: 
     if callback_data['role'] == "admin":
         await admin(callback.message)
     if callback_data['role'] == "user":
-        await start(callback.message)
+        await start(callback.message, state)
+
+    await callback.message.delete()
 
 
 def register_user_handlers(dp: Dispatcher, kb: Keyboards):
     dp.register_message_handler(start, commands=["start"], state="*")
-    dp.register_callback_query_handler(start, kb.back_cd.filter(), state="*")
     dp.register_message_handler(mailing, commands=["mailing"], state="*")
 
     dp.register_message_handler(receive, content_types=[
                                 types.ContentType.TEXT, types.ContentType.VOICE], state="*")
     dp.register_callback_query_handler(
         set_caracter, kb.start_cd.filter(), state="*")
-    # dp.register_callback_query_handler(start, kb.back_cd.filter(), state="*")
+    dp.register_callback_query_handler(back, kb.back_cd.filter(), state="*")
