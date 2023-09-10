@@ -22,7 +22,11 @@ async def start(message: types.Message, state: FSMContext):
 
     characters = db.get_all_characters()
     markup = await kb.start_kb(characters)
-    await message.answer(cfg.misc.messages.start, reply_markup=markup)
+    try:
+        await message.answer(cfg.misc.messages.start, reply_markup=markup)
+    except:
+        await message.message.answer(cfg.misc.messages.start, reply_markup=markup)
+
     await state.finish()
 
 
@@ -49,8 +53,6 @@ async def receive(message: types.Message, state: FSMContext):
     except:
         role_settings = cfg.tg_bot.role_settings
         voice_id = cfg.tg_bot.voice_id
-
-    print(role_settings, voice_id)
     wait = await message.answer("Форматируется ответ…")
 
     if message.content_type == types.ContentType.VOICE:
@@ -88,6 +90,7 @@ async def client_add_profile(callback: types.CallbackQuery, state: FSMContext, c
 
 def register_user_handlers(dp: Dispatcher, kb: Keyboards):
     dp.register_message_handler(start, commands=["start"], state="*")
+    dp.register_callback_query_handler(start, kb.back_cd.filter(), state="*")
     dp.register_message_handler(mailing, commands=["mailing"], state="*")
 
     dp.register_message_handler(receive, content_types=[

@@ -11,20 +11,23 @@ from handlers.admin import register_admin_handlers
 
 from middlewares.environment import EnvironmentMiddleware
 from models import Character
-from aiogram import Bot, Dispatcher, executor,utils
-from aiogram.contrib.fsm_storage.memory  import MemoryStorage
+from aiogram import Bot, Dispatcher, executor, utils
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 logger = logging.getLogger(__name__)
 
-async def register_all_middlewares(dp, config, keyboards,db,bot,openai):
 
-    dp.middleware.setup(EnvironmentMiddleware(config=config,db=db,keyboards=keyboards,bot=bot,openai=openai))
+async def register_all_middlewares(dp, config, keyboards, db, bot, openai):
 
-def register_all_handlers(dp,keyboards):
-    register_user_handlers(dp, keyboards)
+    dp.middleware.setup(EnvironmentMiddleware(
+        config=config, db=db, keyboards=keyboards, bot=bot, openai=openai))
+
+
+def register_all_handlers(dp, keyboards):
     register_admin_handlers(dp, keyboards)
-    
-    
+    register_user_handlers(dp, keyboards)
+
+
 async def main():
     logging.basicConfig(
         level=logging.INFO,
@@ -35,23 +38,23 @@ async def main():
     print("Starting bot")
     config = load_config("config/config.json", "config/texts.yml")
     storage = MemoryStorage()
-    
+
     bot = Bot(token=config.tg_bot.token, parse_mode='HTML')
-    
+
     db = Database(cfg=config)
     dp = Dispatcher(bot, storage=storage)
     kbs = Keyboards(config)
-    
+
     openai.api_key = config.tg_bot.openai
-    
+
     db.cbdt()
     bot['keyboards'] = kbs
     bot['config'] = config
-    await register_all_middlewares(dp, config, kbs,db,bot,openai)
+    await register_all_middlewares(dp, config, kbs, db, bot, openai)
     register_all_handlers(dp, kbs)
-            
+
     # start
-    dp.skip_updates=False
+    dp.skip_updates = False
     try:
         await dp.start_polling()
     finally:
@@ -65,6 +68,5 @@ if __name__ == '__main__':
         asyncio.run(main())
     except (KeyboardInterrupt, SystemExit):
         logger.error("Bot stopped!")
-    except utils.exceptions.TerminatedByOtherGetUpdates: 
+    except utils.exceptions.TerminatedByOtherGetUpdates:
         sys.exit()
-
