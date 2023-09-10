@@ -9,7 +9,7 @@ from db import Database
 from keyboards.keyboards import Keyboards
 
 import os
-from admin import admin
+from .admin import admin
 
 
 async def start(message: types.Message, state: FSMContext):
