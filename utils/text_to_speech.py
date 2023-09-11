@@ -11,8 +11,8 @@ def text_to_speech(text, voice_id):
 
     url = "https://api.voice.steos.io/v1/get/tts"
 
-    if len(text) >= 1000:
-        raise TooLongResponce
+    # if len(text) >= 1000:
+    #     raise TooLongResponce
 
     response = requests.post(url, headers=headers, json=body)
 
