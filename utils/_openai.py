@@ -10,11 +10,9 @@ async def create_responce(message, role_settings, openai, text):
         except:
             users_message[message.from_user.id] = [{"role": "user", "content": "Твои ответы не должны быть больше 1000 символов", }, {
                 "role": "user", "content": role_settings, }]
-        print(users_message[message.from_user.id][1]["content"])
         if role_settings != users_message[message.from_user.id][1]["content"]:
             users_message[message.from_user.id] = [{"role": "user", "content": "Твои ответы не должны быть больше 1000 символов", }, {
                 "role": "user", "content": role_settings, }]
-        print(users_message[message.from_user.id])
         users_message[message.from_user.id].append(
             {"role": "user", "content": text})
         responce = openai.ChatCompletion.create(
