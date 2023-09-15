@@ -19,7 +19,6 @@ async def create_responce(message,role_settings,openai,text):
         answer = responce['choices'][0]['message']['content']
         users_message[message.from_user.id].append(
             {"role": "assistant", "content": answer})
-        print(answer)
     except openai.error.RateLimitError as ex:
         print(ex)
         await asyncio.sleep(20)
