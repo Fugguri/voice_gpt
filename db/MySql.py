@@ -1,7 +1,7 @@
 from datetime import date
 import pymysql
 from config import Config
-from models import User, Character
+from models import *
 
 
 class Database:
@@ -36,6 +36,18 @@ class Database:
                         role_settings TEXT,
                         voice_id INTEGER,
                         use_count BIGINT DEFAULT 0
+                        );"""
+            cursor.execute(create)
+            self.connection.commit()
+        with self.connection.cursor() as cursor:
+            create = """CREATE TABLE IF NOT EXISTS Channels
+                        (id INT PRIMARY KEY AUTO_INCREMENT,
+                        channel_id BIGINT,
+                        username TEXT,
+                        link TEXT,
+                        name TEXT,
+                        description TEXT,
+                        use_count INT DEFAULT 0
                         );"""
             cursor.execute(create)
             self.connection.commit()
@@ -96,6 +108,19 @@ class Database:
             self.connection.close()
             for user in res:
                 result.append(User(*user))
+        return result
+
+    def get_channels(self):
+        result = []
+        self.connection.ping()
+        with self.connection.cursor() as cursor:
+            cursor.execute(
+                """SELECT * FROM Channels""")
+            res = cursor.fetchall()
+            self.connection.commit()
+            self.connection.close()
+            for user in res:
+                result.append(Channel(*user))
         return result
 
     def get_character(self, id):

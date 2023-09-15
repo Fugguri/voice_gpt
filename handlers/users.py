@@ -3,7 +3,7 @@ from aiogram import Dispatcher
 from aiogram.dispatcher.handler import ctx_data
 from aiogram.dispatcher import FSMContext
 
-from utils import speech_to_text, create_responce, text_to_speech
+from utils import *
 from config.config import Config
 from db import Database
 from keyboards.keyboards import Keyboards
@@ -29,6 +29,29 @@ async def start(message: types.Message, state: FSMContext):
         await message.message.answer(cfg.misc.messages.start, reply_markup=markup)
 
     await state.finish()
+
+
+async def check(callback: types.CallbackQuery):
+    cfg: Config = ctx_data.get()['config']
+    kb: Keyboards = ctx_data.get()['keyboards']
+    db: Database = ctx_data.get()['db']
+    channels_text = ""
+    all_joined = True
+    for channel in db.get_channels():
+        member = await get_channel_member(channel.channel_id, callback)
+        markup = types.InlineKeyboardMarkup()
+        markup.add(types.InlineKeyboardButton(
+            text="Проверить подписку", callback_data="check"))
+        if not is_member_in_channel(member):
+            all_joined = False
+            channels_text += "\n"+channel.name
+    if channels_text == "":
+        return
+
+    try:
+        await callback.message.answer(channels_text)
+    except:
+        await callback.answer(channels_text)
 
 
 async def set_caracter(callback: types.CallbackQuery, state: FSMContext, callback_data: dict):
@@ -59,7 +82,7 @@ async def receive(message: types.Message, state: FSMContext):
     if message.content_type == types.ContentType.VOICE:
         path = f"voice/{message.voice.file_id}.ogg"
         await message.voice.download(path)
-        text = speech_to_text(path)
+        text = await speech_to_text(path)
 
     elif message.content_type == types.ContentType.TEXT:
         text = message.text

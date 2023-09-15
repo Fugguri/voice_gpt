@@ -1,8 +1,8 @@
-path= "/home/fugguri/Документы/PROJECT/swm/media/{filename}.ogg"
-# -*- coding: utf8 -*-
-import os
-import speech_recognition as sr
 from pydub import AudioSegment
+import speech_recognition as sr
+import os
+path = "/home/fugguri/Документы/PROJECT/swm/media/{filename}.ogg"
+# -*- coding: utf8 -*-
 
 
 def prepare_voice_file(path: str) -> str:
@@ -39,7 +39,7 @@ def write_transcription_to_file(text, output_file) -> None:
         f.write(text)
 
 
-def speech_to_text(input_path: str, output_path: str=None, language: str="ru-RU") -> None:
+async def speech_to_text(input_path: str, output_path: str = None, language: str = "ru-RU") -> None:
     """
     Transcribes an audio file at the given path to text and writes the transcribed text to the output file.
     """
