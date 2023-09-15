@@ -53,6 +53,8 @@ async def check(callback: types.CallbackQuery):
     except:
         await callback.answer(channels_text)
 
+    return all_joined
+
 
 async def set_caracter(callback: types.CallbackQuery, state: FSMContext, callback_data: dict):
     cfg: Config = ctx_data.get()['config']
@@ -69,7 +71,8 @@ async def receive(message: types.Message, state: FSMContext):
     kb: Keyboards = ctx_data.get()['keyboards']
     db: Database = ctx_data.get()['db']
     openai = ctx_data.get()['openai']
-
+    if not await check(message):
+        return
     data = await state.get_data()
     try:
         role_settings = data['role_settings']
