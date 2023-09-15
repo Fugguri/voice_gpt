@@ -35,7 +35,7 @@ async def check(callback: types.CallbackQuery):
     cfg: Config = ctx_data.get()['config']
     kb: Keyboards = ctx_data.get()['keyboards']
     db: Database = ctx_data.get()['db']
-    channels_text = "Чтобы пользоваться сервисом сначала подпишитесь на канал"
+    channels_text = "Чтобы пользоваться сервисом сначала подпишитесь на канал.\nВы не подписаны на:\n"
     all_joined = True
     markup = types.InlineKeyboardMarkup()
     for channel in db.get_channels():
@@ -46,13 +46,13 @@ async def check(callback: types.CallbackQuery):
                 text=channel.name, url=channel.link))
             all_joined = False
             channels_text += "\n"+channel.name
-    if channels_text != "":
         # markup.add(types.InlineKeyboardButton(
         #     text="Проверить подписку", callback_data="check"))
-        try:
-            await callback.message.answer(channels_text, reply_markup=markup)
-        except:
-            await callback.answer(channels_text, reply_markup=markup)
+
+    try:
+        await callback.message.answer(channels_text, reply_markup=markup)
+    except:
+        await callback.answer(channels_text, reply_markup=markup)
 
     return all_joined
 
