@@ -48,11 +48,11 @@ async def check(callback: types.CallbackQuery):
             channels_text += "\n"+channel.name
         # markup.add(types.InlineKeyboardButton(
         #     text="Проверить подписку", callback_data="check"))
-
-    try:
-        await callback.message.answer(channels_text, reply_markup=markup)
-    except:
-        await callback.answer(channels_text, reply_markup=markup)
+    if not all_joined:
+        try:
+            await callback.message.answer(channels_text, reply_markup=markup)
+        except:
+            await callback.answer(channels_text, reply_markup=markup)
 
     return all_joined
 
