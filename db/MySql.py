@@ -110,7 +110,7 @@ class Database:
                 result.append(User(*user))
         return result
 
-    def get_channels(self):
+    def get_channels(self) -> tuple[Channel]:
         result = []
         self.connection.ping()
         with self.connection.cursor() as cursor:

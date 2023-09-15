@@ -35,23 +35,24 @@ async def check(callback: types.CallbackQuery):
     cfg: Config = ctx_data.get()['config']
     kb: Keyboards = ctx_data.get()['keyboards']
     db: Database = ctx_data.get()['db']
-    channels_text = ""
+    channels_text = "Чтобы пользоваться сервисом сначала подпишитесь на канал"
     all_joined = True
+    markup = types.InlineKeyboardMarkup()
     for channel in db.get_channels():
 
         member = await get_channel_member(channel.channel_id, callback)
-
-        markup = types.InlineKeyboardMarkup()
         markup.add(types.InlineKeyboardButton(
-            text="Проверить подписку", callback_data="check"))
+            text=channel.name, url=channel.link))
         if not is_member_in_channel(member):
             all_joined = False
             channels_text += "\n"+channel.name
     if channels_text != "":
+        # markup.add(types.InlineKeyboardButton(
+        #     text="Проверить подписку", callback_data="check"))
         try:
-            await callback.message.answer(channels_text)
+            await callback.message.answer(channels_text, reply_markup=markup)
         except:
-            await callback.answer(channels_text)
+            await callback.answer(channels_text, reply_markup=markup)
 
     return all_joined
 
@@ -132,4 +133,6 @@ def register_user_handlers(dp: Dispatcher, kb: Keyboards):
                                 types.ContentType.TEXT, types.ContentType.VOICE], state="*")
     dp.register_callback_query_handler(
         set_caracter, kb.start_cd.filter(), state="*")
+    dp.register_callback_query_handler(
+        check, lambda x: x.data == "check", state="*")
     dp.register_callback_query_handler(back, kb.back_cd.filter(), state="*")
