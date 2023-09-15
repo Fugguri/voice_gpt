@@ -4,7 +4,7 @@ import requests
 from .exception import TooLongResponce
 
 
-def text_to_speech(text, voice_id):
+async def text_to_speech(text, voice_id):
     headers = {"Accept": "application/json", "Content-Type": "application/json",
                "Authorization": "f9f65ea1-4534-41f3-9d8c-e97d97e77823"}
     body = {'voice_id': voice_id, 'text': text, 'format': 'wav'}

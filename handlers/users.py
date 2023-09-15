@@ -65,7 +65,7 @@ async def receive(message: types.Message, state: FSMContext):
         text = message.text
 
     responce = await create_responce(message, role_settings, openai, text)
-    path = text_to_speech(responce, voice_id)
+    path = await text_to_speech(responce, voice_id)
     voice = types.InputFile(path)
 
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
