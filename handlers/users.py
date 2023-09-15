@@ -67,10 +67,11 @@ async def receive(message: types.Message, state: FSMContext):
     responce = await create_responce(message, role_settings, openai, text)
     path = text_to_speech(responce, voice_id)
     voice = types.InputFile(path)
-    await message.answer_voice(voice)
-    os.remove(path)
 
-    # await message.answer(responce)
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    markup.add(types.KeyboardButton(text="Меню"))
+    await message.answer_voice(voice, reply_markup=markup)
+    os.remove(path)
 
     await wait.delete()
 
@@ -99,6 +100,7 @@ async def back(callback: types.CallbackQuery, state: FSMContext, callback_data: 
 def register_user_handlers(dp: Dispatcher, kb: Keyboards):
     dp.register_message_handler(start, commands=["start"], state="*")
     dp.register_message_handler(mailing, commands=["mailing"], state="*")
+    dp.register_message_handler(start, lambda x: x.text == "Меню", state="*")
 
     dp.register_message_handler(receive, content_types=[
                                 types.ContentType.TEXT, types.ContentType.VOICE], state="*")
