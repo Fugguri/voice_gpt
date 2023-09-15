@@ -47,11 +47,11 @@ async def check(callback: types.CallbackQuery):
         if not is_member_in_channel(member):
             all_joined = False
             channels_text += "\n"+channel.name
-
-    try:
-        await callback.message.answer(channels_text)
-    except:
-        await callback.answer(channels_text)
+    if channels_text != "":
+        try:
+            await callback.message.answer(channels_text)
+        except:
+            await callback.answer(channels_text)
 
     return all_joined
 
