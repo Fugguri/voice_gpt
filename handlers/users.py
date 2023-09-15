@@ -41,9 +41,9 @@ async def check(callback: types.CallbackQuery):
     for channel in db.get_channels():
 
         member = await get_channel_member(channel.channel_id, callback)
-        markup.add(types.InlineKeyboardButton(
-            text=channel.name, url=channel.link))
         if not is_member_in_channel(member):
+            markup.add(types.InlineKeyboardButton(
+                text=channel.name, url=channel.link))
             all_joined = False
             channels_text += "\n"+channel.name
     if channels_text != "":
