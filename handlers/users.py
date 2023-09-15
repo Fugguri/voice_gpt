@@ -38,7 +38,11 @@ async def check(callback: types.CallbackQuery):
     channels_text = ""
     all_joined = True
     for channel in db.get_channels():
-        member = await get_channel_member(channel.channel_id, callback)
+        try:
+            member = await get_channel_member(channel.channel_id, callback)
+        except:
+
+            pass
         markup = types.InlineKeyboardMarkup()
         markup.add(types.InlineKeyboardButton(
             text="Проверить подписку", callback_data="check"))
