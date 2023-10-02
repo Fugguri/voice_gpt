@@ -25,7 +25,7 @@ async def start(message: types.Message, state: FSMContext):
     markup = await kb.start_kb(characters)
     try:
         await message.answer(cfg.misc.messages.start, reply_markup=markup)
-    except:
+    except :
         await message.message.answer(cfg.misc.messages.start, reply_markup=markup)
 
     await state.finish()
