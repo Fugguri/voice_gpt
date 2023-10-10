@@ -24,7 +24,7 @@ class Database:
                         full_name TEXT,
                         username TEXT,
                         has_acces BOOL DEFAULT false,
-                        role defaul USER
+                        role DEFAULT 'USER'
                         );"""
             cursor.execute(create)
             self.connection.commit()
