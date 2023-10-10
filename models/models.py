@@ -8,7 +8,7 @@ class User:
     username: str
     full_name: str
     has_access: bool
-
+    role: str
 
 @dataclass
 class Character:

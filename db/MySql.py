@@ -23,7 +23,8 @@ class Database:
                         telegram_id BIGINT UNIQUE NOT NULL ,
                         full_name TEXT,
                         username TEXT,
-                        has_acces BOOL DEFAULT false
+                        has_acces BOOL DEFAULT false,
+                        role defaul USER
                         );"""
             cursor.execute(create)
             self.connection.commit()

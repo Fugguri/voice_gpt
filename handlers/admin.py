@@ -23,6 +23,9 @@ async def commands(callback: types.CallbackQuery, state: FSMContext, callback_da
     kb: Keyboards = ctx_data.get()['keyboards']
     db: Database = ctx_data.get()['db']
 
+    if db.get_user(callback.from_user.id).role != "ADMIN":
+        return
+
     command = callback_data["command"]
     if command == "mail":
         markup = await kb.mailing_kb("wait_mail_text")
