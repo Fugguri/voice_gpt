@@ -15,6 +15,9 @@ async def admin(message: types.Message):
     db: Database = ctx_data.get()['db']
     markup = await kb.admin_kb()
 
+    if db.get_user(message.from_user.id).role != "ADMIN":
+        return
+
     await message.answer("Выберите пункт меню", reply_markup=markup)
 
 
@@ -22,9 +25,6 @@ async def commands(callback: types.CallbackQuery, state: FSMContext, callback_da
     cfg: Config = ctx_data.get()['config']
     kb: Keyboards = ctx_data.get()['keyboards']
     db: Database = ctx_data.get()['db']
-
-    if db.get_user(callback.from_user.id).role != "ADMIN":
-        return
 
     command = callback_data["command"]
     if command == "mail":
