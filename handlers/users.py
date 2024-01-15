@@ -95,14 +95,14 @@ async def receive(message: types.Message, state: FSMContext):
         text = message.text
 
     responce = await create_responce(message, role_settings, openai, text)
-    path = await text_to_speech(responce, voice_id)
-    voice = types.InputFile(path)
+    # path = await text_to_speech(responce, voice_id)
+    # voice = types.InputFile(path)
 
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     markup.add(types.KeyboardButton(text="Меню"))
-    await message.answer_voice(voice, reply_markup=markup)
-    os.remove(path)
-
+    # await message.answer_voice(voice, reply_markup=markup)
+    # os.remove(path)
+    await message.answer(responce)
     await wait.delete()
 
 
